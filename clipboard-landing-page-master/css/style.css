@@ -1,0 +1,128 @@
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  color: var(--Grayish-Blue);
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  color: var(--Dark-Grayish-Blue);
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+p {
+  font-size: 18px;
+  line-height: 2;
+}
+header {
+  margin-top: 80px;
+  padding: 0 30px;
+}
+header img {
+  margin-bottom: 50px;
+}
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.boton {
+  margin-bottom: 15px;
+  padding: 10px 0;
+  color: #fff;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.boton:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+#ios {
+  background: var(--Strong-Cyan);
+  border: 1px solid var(--Strong-Cyan);
+}
+#mac {
+  background: var(--Light-Blue);
+  border: 1px solid var(--Light-Blue);
+}
+.contenedor {
+  padding: 0 30px;
+}
+.caracteristicas {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.imagen img {
+  height: 300px;
+  width: 95%;
+  margin: 0 auto;
+}
+.texto {
+  padding: 0 30px;
+}
+.utilidades {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.utilidad {
+  margin-bottom: 50px;
+}
+.marcas {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+.marca {
+  margin: 40px 0;
+}
+footer {
+  margin-top: 200px;
+  background: #f5f6f8;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer img {
+  height: 50px;
+  width: 50px;
+  margin: 50px 0;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  margin: 15px 0;
+  text-decoration: none;
+  color: var(--Grayish-Blue);
+  font-weight: 600;
+  font-size: 18px;
+}
+.iconos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  margin: 70px 0;
+}
+i {
+  font-size: 40px;
+}
